@@ -1,0 +1,11 @@
+A genetic algorithm for playing conwayes game of life.
+
+This project is a university project, for finding methuselahs in the game of life.
+
+gol.py is responsible for the game simulation
+individual.py is responsible for a specific individual, fitness calculations
+genetic.py is responsible for the implementation of the genetic algorithm - mutations, crossovers, and the running of the algo.
+
+running genetic.py will run the algo according to the parameters set in the main, and then print the 3 best methuselahs.
+
+requirements - numpy and maplotlib.
